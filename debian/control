@@ -1,0 +1,18 @@
+Source: go-gadget-serial
+Section: misc
+Priority: optional
+Maintainer: unknown <maudspierings@gocontroll.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://gocontroll.com
+Vcs-Browser: https://github.com/GOcontroll/go-gadget-serial
+Vcs-Git: https://github.com/GOcontroll/go-gadget-serial.git
+
+Package: go-gadget-serial
+Architecture: all
+Depends:
+ login,
+ ${misc:Depends},
+Description: A simple service to provide a tty over usb

@@ -1,0 +1,9 @@
+debian/*
+!debian/rules
+!debian/changelog
+!debian/copyright
+!debian/control
+!debian/source
+!debian/gadget-getty@.service
+!debian/usb-gadget.conf
+!debian/go-gadget-serial.install

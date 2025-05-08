@@ -1,0 +1,2 @@
+debian/gadget-getty@.service /usr/lib/systemd/system/
+debian/usb-gadget.conf /etc/modules-load.d/

@@ -1,0 +1,5 @@
+go-gadget-serial (1.0.0) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Maud Spierings <maudspierings@gocontroll.com>  Tue, 22 Apr 2025 11:50:08 +0200
