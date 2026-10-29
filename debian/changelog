@@ -1,3 +1,11 @@
+go-gadget-serial (1.0.1) unstable; urgency=medium
+
+  * postinst: enable and start gadget-getty@ttyGS0 on a first install only;
+    an upgrade keeps the state it had. prerm no longer disables on remove,
+    postrm purge removes the enable links.
+
+ -- GOcontroll B.V. <info@gocontroll.com>  Thu, 29 Oct 2026 10:00:18 +0100
+
 go-gadget-serial (1.0.0) unstable; urgency=medium
 
   * Initial release.
